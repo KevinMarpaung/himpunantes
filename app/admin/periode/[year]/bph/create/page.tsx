@@ -32,7 +32,11 @@ const BPH_POSITIONS = [
   "Koordinator Divisi",
 ];
 
-export default function CreateBPHPage({ params }: PageProps) {
+export default function CreateBPHPage({
+  params,
+}: {
+  params: { year: string };
+}) {
   const { year } = params;
   const [formData, setFormData] = useState({
     position: "",
