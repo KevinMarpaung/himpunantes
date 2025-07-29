@@ -18,12 +18,6 @@ import { ArrowLeft, Save } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-interface PageProps {
-  params: {
-    year: string;
-  };
-}
-
 const BPH_POSITIONS = [
   "Ketua Umum",
   "Wakil Ketua",
