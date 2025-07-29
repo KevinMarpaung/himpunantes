@@ -26,7 +26,7 @@ const BPH_POSITIONS = [
   "Koordinator Divisi",
 ];
 
-export default function CreateBPHPage({
+export default async function CreateBPHPage({
   params,
 }: {
   params: { year: string };
